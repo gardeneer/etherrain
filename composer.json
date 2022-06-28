@@ -1,0 +1,23 @@
+{
+	"name" : "gardeneer/etherrain",
+	"description" : "Interface to communicate with EtherRain device",
+	"license" : "MIT",
+	"keywords" : [
+		"etherrain",
+		"communication"
+	],
+	"authors" : [{
+			"name" : "Ignacio Colino Cortizo",
+			"email" : "icolinocortizo@gmail.com",
+			"homepage" : "https://www.parafusodixital.com"
+		}
+	],
+	"require-dev" : {
+		"phpunit/phpunit" : "6.0.*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Gardeneer\\EtherRain\\" : "src"
+		}
+	}
+}
